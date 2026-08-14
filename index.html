@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garibaldi Restaurante | Costanera Norte, Buenos Aires</title>
+  <meta name="description" content="Garibaldi Restaurante en la Costanera de Buenos Aires. Cocina de autor, pescados, mariscos, carnes a la parrilla y cócteles frente al río.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚓</text></svg>">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/main.127dc09c.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="header-container">
+      <a href="#hero" class="logo">
+        <span class="logo-title">GARIBALDI</span>
+        <span class="logo-sub">RESTAURANTE</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <a href="#experiencia" class="nav-link">Experiencia</a>
+        <a href="#menu" class="nav-link">Carta</a>
+        <a href="#resenas" class="nav-link">Reseñas</a>
+        <a href="#ubicacion" class="nav-link">Ubicación</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-selector">
+          <button class="lang-btn active" aria-label="Español">ES</button>
+        </div>
+        <a href="tel:+5491123542721" class="btn btn-outline nav-phone-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>Reservar</span>
+        </a>
+        <button class="burger-btn" id="burgerBtn" aria-label="Abrir menú de navegación">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Navigation -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <span class="logo-title">GARIBALDI</span>
+      <button class="drawer-close" id="drawerClose" aria-label="Cerrar menú">&times;</button>
+    </div>
+    <div class="drawer-body">
+      <a href="#experiencia" class="drawer-link">Experiencia</a>
+      <a href="#menu" class="drawer-link">Carta Completa</a>
+      <a href="#resenas" class="drawer-link">Reseñas de Clientes</a>
+      <a href="#ubicacion" class="drawer-link">Contacto y Horarios</a>
+      <div class="drawer-footer">
+        <a href="tel:+5491123542721" class="btn btn-primary full-width">
+          Llamar al +54 9 11 2354-2721
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-wrapper">
+        <img src="assets/img_01.jpg" alt="Veranda acogedora iluminada con mesas de madera y vista panorámica" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+      </div>
+      
+      <div class="hero-content container">
+        <div class="hero-badge">
+          <span class="star-rating">★ 4.4</span>
+          <span class="rating-count">Más de 7,500+ reseñas</span>
+        </div>
+        <h1 class="hero-title">Elegancia frente al río, momentos inolvidables.</h1>
+        <p class="hero-subtitle">Una propuesta gastronómica vibrante en la Costanera Norte de Buenos Aires. Pescados, mariscos, cortes a la parrilla y coctelería de autor.</p>
+
+        <div class="hero-cta-group">
+          <a href="tel:+5491123542721" class="btn btn-primary">
+            <span>Reservar mesa</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#menu" class="btn btn-glass">Ver la Carta</a>
+        </div>
+
+        <div class="hero-quick-info">
+          <div class="info-pill">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Av. Costanera Rafael Obligado 4899, CABA</span>
+          </div>
+          <div class="info-pill">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Hoy: 12:00 – 00:00 hs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience / Ambiance Showcase -->
+    <section class="experience section-padding" id="experiencia">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">El Ambiente</span>
+          <h2 class="section-title">Naturaleza, calidez y alta gastronomía</h2>
+        </div>
+
+        <div class="experience-grid">
+          <div class="exp-card exp-card-large reveal-on-scroll">
+            <div class="exp-img-box">
+              <img src="assets/img_04.jpg" alt="Detalle de mesa con iluminación cálida nocturna" loading="lazy">
+            </div>
+            <div class="exp-content">
+              <h3>Atmósfera Íntima & Exclusiva</h3>
+              <p>Iluminación tenue, mantelería impecable y un servicio dedicado a transformar cada almuerzo o cena en una ocasión memorable.</p>
+            </div>
+          </div>
+
+          <div class="exp-card reveal-on-scroll" style="transition-delay: 0.15s;">
+            <div class="exp-img-box">
+              <img src="assets/img_02.jpg" alt="Plato de carne a la parrilla con vegetales y salsa" loading="lazy">
+            </div>
+            <div class="exp-content">
+              <h3>Parrilla & Sabores de Mar</h3>
+              <p>Cortes seleccionados, pesca fresca y recetas inspiradas en la epopeya atlántica.</p>
+            </div>
+          </div>
+
+          <div class="exp-card reveal-on-scroll" style="transition-delay: 0.3s;">
+            <div class="exp-img-box">
+              <img src="assets/img_03.jpg" alt="Coctelería de autor contemporánea" loading="lazy">
+            </div>
+            <div class="exp-content">
+              <h3>Coctelería Creativa</h3>
+              <p>Tragos de autor diseñados para maridar cada momento frente a la brisa del Río de la Plata.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Full Menu Section -->
+    <section class="menu-section section-padding" id="menu">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">NUESTRA CARTA</span>
+          <h2 class="section-title">Sabores con Historia</h2>
+          <p class="section-desc">Inspirada en las travesías y puertos de la vida de Garibaldi.</p>
+        </div>
+
+        <!-- Sticky Category Nav for Mobile & Desktop -->
+        <div class="menu-nav-wrapper">
+          <nav class="menu-categories" id="menuCategories">
+            <button class="cat-btn active" data-target="entradas">Entradas</button>
+            <button class="cat-btn" data-target="principales">Platos Principales</button>
+            <button class="cat-btn" data-target="guarniciones">Guarniciones</button>
+            <button class="cat-btn" data-target="kids">Menú Infantil</button>
+            <button class="cat-btn" data-target="postres">Postres</button>
+            <button class="cat-btn" data-target="cafeteria">Cafetería</button>
+          </nav>
+        </div>
+
+        <!-- Menu Content -->
+        <div class="menu-container">
+          
+          <!-- ENTRADAS -->
+          <div class="menu-category-block active" id="cat-entradas">
+            <h3 class="category-title">Entradas 🥟</h3>
+            <div class="menu-grid">
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Bianchino</h4>
+                </div>
+                <p class="menu-item-desc">Burrata / Jamón crudo / Rúcula salvaje.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Natalio</h4>
+                </div>
+                <p class="menu-item-desc">Gratén de provoleta peperonata.</p>
+              </div>
+
+              <div class="menu-item highlight-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Langostinos Laguna de Rocha</h4>
+                </div>
+                <p class="menu-item-desc">Langostinos en salsa de ostras, humus con sutiles notas de remolacha y crocante de kale.</p>
+                <span class="menu-history-note">La laguna uruguaya donde Garibaldi pasó parte de su Exilio.</span>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Caracú</h4>
+                </div>
+                <p class="menu-item-desc">Tuétano en el interior de huesos, acompañado con criolla.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Cromesquis de Morcilla</h4>
+                </div>
+                <p class="menu-item-desc">Croquetas crocantes, rellenas de morcilla con pera.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Tartar de Atún Rojo</h4>
+                </div>
+                <p class="menu-item-desc">Atún rojo marinado en salsa ponzu, alcaparras, rabanitos y crema de palta.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Empanadas de Bife de Chorizo</h4>
+                </div>
+                <p class="menu-item-desc">3 unidades acompañadas con dip de criolla.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Empanadas de Entraña</h4>
+                </div>
+                <p class="menu-item-desc">3 unidades acompañadas con dip de criolla.</p>
+              </div>
+
+              <div class="menu-item highlight-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Chipirones Montevideo</h4>
+                </div>
+                <p class="menu-item-desc">Chipirones al fierro con tomates frescos, papas macedonia crocantes, soplo de mar, moho verde de anchoas y hierbas.</p>
+                <span class="menu-history-note">Recuerdo de su llegada a Montevideo, refugio fundamental en su historia.</span>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Papas Trufadas</h4>
+                </div>
+                <p class="menu-item-desc">Papas triple cocción, alioli de tartufo, jamón ibérico crispy y huevo poché.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Rabas</h4>
+                </div>
+                <p class="menu-item-desc">Rabas crujientes acompañadas con salsas de la casa.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- PLATOS PRINCIPALES -->
+          <div class="menu-category-block" id="cat-principales">
+            <h3 class="category-title">Platos Principales 🍷</h3>
+            <div class="menu-grid">
+              
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Ensalada Giusepina</h4>
+                </div>
+                <p class="menu-item-desc">Variedad de hojas verdes / Trío de morrones asados, crema de atún, salmón ahumado.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Ensalada Lourdes</h4>
+                </div>
+                <p class="menu-item-desc">Mix de hojas verdes / Aderezo Lourdes, queso de yogurt griego, arándanos y frutos secos.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Ensalada Annita</h4>
+                </div>
+                <p class="menu-item-desc">Mezcla de hojas verdes, gajos a vivo de pomelo y naranja, ananá, mango, aderezos cítricos.</p>
+              </div>
+
+              <div class="menu-item highlight-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Ensalada Mentana</h4>
+                </div>
+                <p class="menu-item-desc">Hinojos y cebolla morada, con frescura de naranja, menta y palta; acompañada de castañas cajú, semillas de amapola y un toque de trufa en salsa de ostras.</p>
+                <span class="menu-history-note">Inspirada en la Batalla de Mentana, símbolo de resistencia y modernidad.</span>
+              </div>
+
+              <div class="menu-item highlight-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">César de Niza</h4>
+                </div>
+                <p class="menu-item-desc">Clásica ensalada César reinterpretada: lechuga iceberg, aderezo casero de anchoas, alcaparras, Dijon, ajo y parmesano; crocantes de focaccia y langostinos apanados en panko de naranja (150g).</p>
+                <span class="menu-history-note">Niza fue lugar de encuentro de la familia Garibaldi con nuevas corrientes europeas.</span>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Nero di Sepia</h4>
+                </div>
+                <p class="menu-item-desc">Risotto de pulpo, langostinos, mejillones y tinta de calamar.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Verona</h4>
+                </div>
+                <p class="menu-item-desc">Risotto fungi trufado.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Maia</h4>
+                </div>
+                <p class="menu-item-desc">Risotto de langostinos, crocante con tinta de calamar.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Niza Pasta</h4>
+                </div>
+                <p class="menu-item-desc">Fetuccini salteado en aceite de oliva, pesto, tomate cherry, olivas negras, vino blanco, alcaparras y castañas de cajú.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Burger Wagyu</h4>
+                </div>
+                <p class="menu-item-desc">Carne hamburguesa wagyu, morrón asado, tomate, lechuga, provoleta, cebollas caramelizadas, acompañado de papas cuñas en pan de parmesano.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Napoli</h4>
+                </div>
+                <p class="menu-item-desc">Milanesa de bife de chorizo marinada en mostaza y especias, acompañada de puré de papas ahumado al carbón y suave crema de pimientos asados, cebolla y ajo emulsionada con oliva.</p>
+              </div>
+
+              <div class="menu-item highlight-item full-width-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Tabla Heroica de Quattro Mari</h4>
+                </div>
+                <p class="menu-item-desc">Selección de mariscos y pescados: Salmón (250g), abadejo (300g), langostinos en panko (180g), rabas (180g), mejillones pelados (120g), mejillones en media valva (120g) y calamarettis (240g). Preparaciones mixtas: plancha, fritura y cazuela marinara con vino blanco, ajo y cebolla fresca.</p>
+                <span class="menu-history-note">Homenaje a los "cuatro mares" que recorrió Garibaldi: Adriático, Atlántico, Mediterráneo y Río de la Plata.</span>
+              </div>
+
+              <div class="menu-item highlight-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Salmón Caprera</h4>
+                </div>
+                <p class="menu-item-desc">Salmón rosado a la plancha, acompañado de remolachas orgánicas dulces, zanahorias glaseadas y notas cítricas de estación.</p>
+                <span class="menu-history-note">Caprera, la isla donde Garibaldi pasó sus últimos años, símbolo de retiro y frescura.</span>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Abadira</h4>
+                </div>
+                <p class="menu-item-desc">Abadejo con crema de alcaparras, tomates cherrys, brócoli y crema de cabutia.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Entraña a la Parrilla</h4>
+                </div>
+                <p class="menu-item-desc">Entraña a la parrilla servida con guarnición a elección.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Enrique III</h4>
+                </div>
+                <p class="menu-item-desc">Asado banderita a la parrilla servido con guarnición a elección.</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Domenico</h4>
+                </div>
+                <p class="menu-item-desc">Bife de chorizo a la parrilla servido con guarnición a elección.</p>
+              </div>
+
+              <div class="menu-item highlight-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Medallón Porto Alegre</h4>
+                </div>
+                <p class="menu-item-desc">Ojo de bife a la parrilla (450g), acompañado de espinaca y kale gratinado en crema de leche, mascarpone y parmesano al horno.</p>
+                <span class="menu-history-note">Porto Alegre fue ciudad clave en la vida de Garibaldi y Anita, donde se encontraron.</span>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-name">Mollejas a la Parrilla</h4>
+                </div>
+                <p class="menu-item-desc">Mollejas de corazón vacuna a la parrilla doradas a fuego lento.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- GUARNICIONES -->
+          <div class="menu-category-block" id="cat-guarniciones">
+            <h3 class="category-title">Guarniciones y Adicionales 🥗</h3>
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4 class="menu-item-name">Guarniciones a Elección</h4>
+                <p class="menu-item-desc">• Papas cuñas crocantes<br>• Papines crocantes<br>• Ensalada de rúcula, parmesano y tomates confitados</p>
+              </div>
+
+              <div class="menu-item">
+                <h4 class="menu-item-name">Adicionales</h4>
+                <p class="menu-item-desc">• Puré de hongos<br>• Puré de papas<br>• Ensalada de rúcula, parmesano y tomates confitados<br>• Kale y espinaca gratinados</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- KIDS -->
+          <div class="menu-category-block" id="cat-kids">
+            <h3 class="category-title">Menú Infantil 🎈</h3>
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4 class="menu-item-name">Milanesa Kid’s</h4>
+                <p class="menu-item-desc">Milanesa de bife de chorizo, acompañada de papas cuñas crocantes.</p>
+              </div>
+              <div class="menu-item">
+                <h4 class="menu-item-name">Alfredo Kid’s</h4>
+                <p class="menu-item-desc">Fetuccini a la manteca.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- POSTRES -->
+          <div class="menu-category-block" id="cat-postres">
+            <h3 class="category-title">Postres 🍨</h3>
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4 class="menu-item-name">Tiramisú Véneto</h4>
+                <p class="menu-item-desc">Tiramisú con garrapiñadas de pistachos, salsa de cacao y salsa toffee.</p>
+              </div>
+
+              <div class="menu-item">
+                <h4 class="menu-item-name">Brownie Boston</h4>
+                <p class="menu-item-desc">Brownie con helado de americana o dulce de leche y frutos rojos.</p>
+              </div>
+
+              <div class="menu-item">
+                <h4 class="menu-item-name">Piamonte</h4>
+                <p class="menu-item-desc">Panacota de chocolate blanco y vino blanco, frutos rojos, garrapiñadas de pistacho y moneda de chocolate.</p>
+              </div>
+
+              <div class="menu-item">
+                <h4 class="menu-item-name">Caribe <span class="badge-tag">Sin TACC</span></h4>
+                <p class="menu-item-desc">Mousse de chocolate con base de harina de almendras, manjar de coco, frutos rojos y naranjas confitadas.</p>
+              </div>
+
+              <div class="menu-item">
+                <h4 class="menu-item-name">Reino Unido</h4>
+                <p class="menu-item-desc">Crumble de manzanas, crema de mascarpone y salsa toffee.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CAFETERIA -->
+          <div class="menu-category-block" id="cat-cafeteria">
+            <h3 class="category-title">Cafetería ☕</h3>
+            <div class="menu-grid cafe-grid">
+              <div class="menu-item">
+                <h4 class="menu-item-name">Expreso</h4>
+                <p class="menu-item-desc">Chico / Grande</p>
+              </div>
+
+              <div class="menu-item">
+                <h4 class="menu-item-name">Capuchino</h4>
+                <p class="menu-item-desc">Chico / Grande</p>
+              </div>
+
+              <div class="menu-item">
+                <h4 class="menu-item-name">Latte</h4>
+                <p class="menu-item-desc">Chico / Grande</p>
+              </div>
+
+              <div class="menu-item">
+                <h4 class="menu-item-name">Lágrima</h4>
+                <p class="menu-item-desc">Chica / Grande</p>
+              </div>
+
+              <div class="menu-item">
+                <h4 class="menu-item-name">Cortado</h4>
+                <p class="menu-item-desc">Chico / Grande</p>
+              </div>
+
+              <div class="menu-item service-item">
+                <h4 class="menu-item-name">Servicio de Cubierto</h4>
+                <p class="menu-item-desc">Consultar valor vigente en mesa.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews / Testimonials -->
+    <section class="reviews-section section-padding" id="resenas">
+      <div class="container">
+        <div class="reviews-header">
+          <div>
+            <span class="section-tag">RESEÑAS</span>
+            <h2 class="section-title">Lo que dicen nuestros comensales</h2>
+          </div>
+          <div class="rating-badge-large">
+            <span class="score">4.4</span>
+            <div class="stars">★★★★★</div>
+            <span class="total-reviews">+7,500 reseñas en Google</span>
+          </div>
+        </div>
+
+        <!-- Snap Scroll Review Track -->
+        <div class="reviews-carousel">
+          
+          <div class="review-card">
+            <div class="review-top">
+              <div class="review-stars">★★★★★</div>
+              <span class="review-author">Axybel Peña</span>
+            </div>
+            <p class="review-text">"Celebramos nuestro tercer aniversario aquí y fue encantador. Todo estuvo delicioso y los tragos excelentes. El servicio fue increíble, muy atento sin ser molesto, e incluso nos dieron un shot de cortesía. El lugar tiene estacionamiento propio."</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-top">
+              <div class="review-stars">★★★★☆</div>
+              <span class="review-author">Michele D’Innella</span>
+            </div>
+            <p class="review-text">"Garibaldi es un restaurante moderno y elegante sobre la costa del Río de la Plata en Buenos Aires. La decoración es muy actual, ideal para una salida nocturna. La carta de cócteles es muy creativa y sabrosa. Las entradas y postres, como el tiramisú, estuvieron estupendos."</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-top">
+              <div class="review-stars">★★★★★</div>
+              <span class="review-author">Tim Walch</span>
+            </div>
+            <p class="review-text">"Muchas gracias por recibirnos. Tuvimos una experiencia fantástica. La atención de nuestro mozo hizo que la estancia fuera mucho más agradable. Estamos deseando volver pronto."</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-top">
+              <div class="review-stars">★★★★☆</div>
+              <span class="review-author">The Global Gourmand</span>
+            </div>
+            <p class="review-text">"Un hermoso lugar de categoría con vistas al río para almorzar. El ceviche fue excelente, el ambiente es muy cálido y acogedor, y el servicio sumamente amable y rápido."</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section class="location-section section-padding" id="ubicacion">
+      <div class="container">
+        <div class="location-grid">
+          
+          <div class="location-info">
+            <span class="section-tag">VISÍTANOS</span>
+            <h2 class="section-title">En la Costanera Norte</h2>
+            <p class="location-desc">Ubicados a orillas del Río de la Plata, contamos con estacionamiento privado y una vista inigualable.</p>
+
+            <div class="info-list">
+              <div class="info-item">
+                <div class="icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <strong>Dirección</strong>
+                  <p>Av. Costanera Rafael Obligado 4899, C1428 Cdad. Autónoma de Buenos Aires, Argentina</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <strong>Teléfono / Reservas</strong>
+                  <p><a href="tel:+5491123542721" class="phone-link">+54 9 11 2354-2721</a></p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <strong>Horarios de Atención</strong>
+                  <ul class="hours-list">
+                    <li><span>Lunes:</span> <strong>Cerrado</strong></li>
+                    <li><span>Martes a Jueves:</span> <strong>12:00 – 00:00 hs</strong></li>
+                    <li><span>Viernes y Sábado:</span> <strong>12:00 – 00:30 hs</strong></li>
+                    <li><span>Domingo:</span> <strong>12:00 – 00:00 hs</strong></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <a href="tel:+5491123542721" class="btn btn-primary full-width-mobile">
+              Llamar para Reservar Mesa
+            </a>
+          </div>
+
+          <!-- Interactive Map Embed -->
+          <div class="map-wrapper">
+            <iframe 
+              title="Mapa de ubicación Garibaldi Restaurante" 
+              src="https://maps.google.com/maps?q=Av.%20Costanera%20Rafael%20Obligado%204899%2C%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="logo-title">GARIBALDI</span>
+        <span class="logo-sub">RESTAURANTE</span>
+        <p class="footer-tagline">Experiencia gastronómica frente al Río de la Plata.</p>
+      </div>
+
+      <div class="footer-contact">
+        <p>Av. Costanera Rafael Obligado 4899, CABA</p>
+        <p><a href="tel:+5491123542721">+54 9 11 2354-2721</a></p>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy; 2026 Garibaldi Restaurante. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Bar -->
+  <div class="mobile-sticky-cta">
+    <a href="tel:+5491123542721" class="btn btn-primary full-width">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Llamar y Reservar Mesa</span>
+    </a>
+  </div>
+
+  <script src="js/main.88b710ef.js"></script>
+</body>
+</html>
